@@ -13,15 +13,16 @@ body {
 /* Custom Button Styles */
 .btn-custom {
     display: inline-block;
-    color: white;
+    color: black;
     text-align: center;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bold;
-    border-radius: 0;
-    background-color: rgba(63, 51, 61, 0.568);
+    border-radius: 12px;
+    background-color: white;
     border: 2px solid rgb(70, 0, 95);
-    transition: background-color 0.4s;
+    padding: 20px;
+    transition: background-color 0.4s, color 0.4s;
 }
 
 /* Button Hover Effects */
@@ -47,4 +48,22 @@ body {
 #discover-button, #lists-button, #maps-button, #settings-button {
     width: 100%;
     padding: 0;
+}
+
+/* Back Button Styles */
+.backbutton {
+    border: 2px solid rgb(70, 0, 95);
+    background-color: white;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+.backbutton:hover {
+    background-color: rgb(70, 0, 95);
+    color: white;
 }
