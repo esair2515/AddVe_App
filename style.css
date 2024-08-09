@@ -1,6 +1,6 @@
 /* Background Color */
 body {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
 }
 
 /* Logo Specifications */
@@ -10,60 +10,41 @@ body {
     color: rgb(70, 0, 95);
 }
 
-/* Button Styles */
-.btn {
+/* Custom Button Styles */
+.btn-custom {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: bold;
+    border-radius: 0;
+    background-color: rgba(63, 51, 61, 0.568);
     border: 2px solid rgb(70, 0, 95);
-    border-radius: 12px;
-    transition-duration: 0.4s;
+    transition: background-color 0.4s;
 }
 
-.btn:hover {
+/* Button Hover Effects */
+.btn-custom:hover {
     background-color: rgb(70, 0, 95);
     color: white;
 }
 
-.enterbutton1 {
-    padding: 16px 32px;
+/* Specific Button Sizes */
+#discover-button, #lists-button {
+    height: 200px;
 }
 
-.backbutton {
-    padding: 10px 25px;
+#maps-button {
+    height: 400px;
 }
 
-.discoverbutton, .yourlistbutton, .mapbutton, .settingsbutton {
-    padding: 20px;
-    background-color: rgba(63, 51, 61, 0.568);
-    color: black;
+#settings-button {
+    height: 50px;
 }
 
-.discoverbutton.small-width, .yourlistbutton.small-width {
-    padding: 60px;
-}
-
-.mapbutton.small-width2, .settingsbutton.small-width2 {
-    padding: 100px;
-}
-
-@media (max-width: 370px) {
-    .small-width {
-        width: 45%;
-    }
-
-    .small-width2 {
-        width: 95%;
-    }
-}
-
-/* Map Styles */
-.google-map {
-    padding-bottom: 50%;
-    position: relative;
-}
-
-.google-map iframe {
-    height: 100%;
+/* Ensure buttons fit the container */
+#discover-button, #lists-button, #maps-button, #settings-button {
     width: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
+    padding: 0;
 }
