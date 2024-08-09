@@ -31,3 +31,48 @@
     </div>
 </body>
 </html>
+
+
+self.addEventListener('install', event => {
+  event.waitUntil(
+    caches.open('my-cache').then(cache => {
+      return cache.addAll([
+        '/',
+        '/index.html',
+        '/style.css',
+        '/Images/logoaddme.png',
+        // Add other assets you want to cache
+      ]);
+    })
+  );
+});
+
+self.addEventListener('fetch', event => {
+  event.respondWith(
+    caches.match(event.request).then(response => {
+      return response || fetch(event.request);
+    })
+  );
+});
+
+
+{
+  "name": "AddVe - Adventure Connections",
+  "short_name": "AddVe",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4a4a4a",
+  "icons": [
+    {
+      "src": "Images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "Images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
