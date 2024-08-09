@@ -45,7 +45,7 @@ body {
 }
 
 /* Ensure buttons fit the container */
-#discover-button, #lists-button, #maps-button, #settings-button {
+.btn-custom {
     width: 100%;
     padding: 0;
 }
