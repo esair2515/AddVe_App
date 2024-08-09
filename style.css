@@ -1,0 +1,251 @@
+/*Background Color*/
+body {
+    background-color: rgb(255, 255, 255);
+}
+/*Logo Specifications*/
+.logo {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 60px;
+    color: rgb(70, 0, 95);
+}
+/*Main Screen Enter Button*/
+.enterbutton1 {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+  
+.enterbutton1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(70, 0, 95);
+}
+  
+.enterbutton1:hover {
+    background-color: rgb(70, 0, 95);
+    color: white;
+}
+
+.enterbutton1 {border-radius: 12px;}
+
+/*Back Button*/
+
+.backbutton {
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+  
+.backbutton {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(70, 0, 95);
+}
+  
+.backbutton:hover {
+    background-color: rgb(70, 0, 95);
+    color: white;
+}
+
+.backbutton {border-radius: 12px;}
+
+/*Discover Button*/
+
+.discoverbutton {
+    border: none;
+    color: white;
+    padding: 60px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.discoverbutton {
+    background-color: rgba(63, 51, 61, 0.568); 
+    color: black; 
+    border: 2px solid rgb(70, 0, 95);
+}
+  
+.discoverbutton:hover {
+    background-color: rgb(70, 0, 95);
+    color: white;
+}
+
+.discoverbutton {border-radius: 12px;}
+
+/*Your Lists Buttons*/
+
+.yourlistbutton {
+    border: none;
+    color: white;
+    padding: 60px 68px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.yourlistbutton {
+    background-color: rgba(63, 51, 61, 0.568); 
+    color: black; 
+    border: 2px solid rgb(70, 0, 95);
+}
+  
+.yourlistbutton:hover {
+    background-color: rgb(70, 0, 95);
+    color: white;
+}
+
+.yourlistbutton {border-radius: 12px;}
+
+/*Maps*/
+
+.mapbutton {
+    border: none;
+    color: white;
+    padding: 100px 158px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 16px 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.mapbutton {
+    background-color: rgba(63, 51, 61, 0.568); 
+    color: black; 
+    border: 2px solid rgb(70, 0, 95);
+}
+  
+.mapbutton:hover {
+    background-color: rgb(70, 0, 95);
+    color: white;
+}
+
+.mapbutton {border-radius: 12px;}
+
+/*Settings Button*/
+
+.settingsbutton {
+    border: none;
+    color: white;
+    padding: 20px 149px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.settingsbutton {
+    background-color: rgba(63, 51, 61, 0.568); 
+    color: black; 
+    border: 2px solid rgb(70, 0, 95);
+}
+  
+.settingsbutton:hover {
+    background-color: rgb(70, 0, 95);
+    color: white;
+}
+
+.settingsbutton {border-radius: 12px;}
+
+/*Glyphicon*/
+
+.glyphicon {
+    font-size: 70px;
+    padding: 100px 0px;
+}
+
+/*Button Adjustments*/
+
+@media (max-width: 370px){
+    button.small-width{
+        width: 45%;
+    }
+    button.small-width2{
+        width: 95%;
+    }   
+}
+
+/*Dark Theme Button*/
+
+.themedarkbutton {
+    border: none;
+    color: white;
+    padding: 10px 109px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.themedarkbutton {
+    background-color: rgba(63, 51, 61, 0.568); 
+    color: black; 
+    border: 2px solid rgb(70, 0, 95);
+}
+  
+.themedarkbutton:hover {
+    background-color: rgb(70, 0, 95);
+    color: white;
+}
+
+.themedarkbutton {border-radius: 12px;}
+ 
+/*Light Theme Button*/
+
+.themelightbutton {
+    border: none;
+    color: white;
+    padding: 10px 109px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.themelightbutton {
+    background-color: rgba(63, 51, 61, 0.568); 
+    color: black; 
+    border: 2px solid rgb(70, 0, 95);
+}
+  
+.themelightbutton:hover {
+    background-color: rgb(70, 0, 95);
+    color: white;
+}
+
+.themelightbutton {border-radius: 12px;}
+ 
